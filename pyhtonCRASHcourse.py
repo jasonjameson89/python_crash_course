@@ -29,14 +29,37 @@ x = 'jason'
 y = 'jameson'
 print('hello ' + x + ' ' + y + '.' )
 
+#Using Fstrings
+
+a = '1'
+b = '2'
+c = '3'
+x = f'{a}{b}{c}'
+print(x)
+
+#more
+
+a = 'asd'
+b = 'dsa'
+x = f'{a} {b}'
+print(x.title())
+
+x = ('ASDASDsadas')
+y = ('32')
+z = x.lower()
+print(f'{z.title()} {y}')
 
 
+#stripping white space
 
+a = 'asdas asda sdasd                 '
+print(a.rstrip())
+print(a.lstrip())
+print(a.strip())
 
+#using escape characters
 
-
-
-
+print('h\ne\nl\nl\no\n')
 
 
 
